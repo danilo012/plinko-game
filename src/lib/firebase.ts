@@ -5,11 +5,11 @@ import { getDatabase } from 'firebase/database'
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY!,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN!,
-  projectId: 'plinko-balls',
-  storageBucket: 'plinko-balls.appspot.com',
-  messagingSenderId: '203383280650',
+  projectId: 'plinko-balls-bd87d',
+  storageBucket: 'plinko-balls-bd87d.appspot.com',
+  messagingSenderId: '744261373872',
   appId: import.meta.env.VITE_FIREBASE_APP_ID!,
-  measurementId: 'G-4W19TNHHXZ'
+  measurementId: 'G-EZP4HZSYJ2'
 }
 
 const app = initializeApp(firebaseConfig)
