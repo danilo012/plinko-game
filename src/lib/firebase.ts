@@ -3,14 +3,14 @@ import { initializeApp } from 'firebase/app'
 import { useDeviceLanguage, getAuth } from 'firebase/auth'
 import { getDatabase } from 'firebase/database'
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY!,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN!,
-  projectId: 'plinko-balls-bd87d',
-  storageBucket: 'plinko-balls-bd87d.appspot.com',
-  messagingSenderId: '744261373872',
-  appId: import.meta.env.VITE_FIREBASE_APP_ID!,
-  measurementId: 'G-EZP4HZSYJ2'
-}
+  apiKey: "AIzaSyA-7AlaObbKW6NP_VL5miPKwQEKPOIT8mY",
+  authDomain: "plinko-balls-bd87d.firebaseapp.com",
+  projectId: "plinko-balls-bd87d",
+  storageBucket: "plinko-balls-bd87d.appspot.com",
+  messagingSenderId: "744261373872",
+  appId: "1:744261373872:web:8e10935fd7fe8a629c9075",
+  measurementId: "G-EZP4HZSYJ2"
+};
 
 const app = initializeApp(firebaseConfig)
 
